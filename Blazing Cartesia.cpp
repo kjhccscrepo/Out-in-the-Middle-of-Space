@@ -25,9 +25,7 @@ void circlemath(double r, double theta, double aluber) {
 void user_defined_values(double &x, double &y, double &z) {
 	std::cout << std::endl << std::endl;
 	std::cout << "Enter your coordinates, separated by spaces:" << std::endl;
-	std::cin >> x;
-	std::cin >> y;
-	std::cin >> z;
+	std::cin >> x >> y >> z;
 }
 
 void invalidinput(std::string inputerror) {
